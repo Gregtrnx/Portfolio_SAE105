@@ -1,41 +1,51 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
     background-color: #FAFAFA;
 }
 
 /****************/
- /** En-tête **/
+/** En-tête **/
 /****************/
 
-header{
-    background-color: black;
+header {
+    background-color: #111;
     position: absolute;
     padding: 14px 5%;
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 
-.logo{
+.logo {
+    display: flex;
+    align-items: center;
     width: 62px;
     border-radius: 50px;
+    margin-right: auto;
+    margin-left: 64px;
 }
 
-.onglet{
+.onglet {
     display: flex;
     gap: 24px;
 }
 
-.onglet>*{
+.onglet>* {
     color: #FFF;
 }
 
-.icon{
+.icon {
     display: flex;
     gap: 24px;
+    margin-left: auto;
+    margin-right: 128px;
 }
+
+/*********************/
+ /**Page d'acceuil**/
+/*********************/
+
