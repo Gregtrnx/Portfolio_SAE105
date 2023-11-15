@@ -12,7 +12,6 @@ body {
 
 header {
     background-color: #111;
-    position: absolute;
     padding: 14px 5%;
     width: 90%;
     display: flex;
@@ -25,6 +24,9 @@ header {
     align-items: center;
     width: 62px;
     border-radius: 50px;
+}
+
+.logo_b{
     margin-right: auto;
     margin-left: 64px;
 }
@@ -49,3 +51,18 @@ header {
  /**Page d'acceuil**/
 /*********************/
 
+main{
+    display: flex;
+    color: white;
+    font-size: 6vw;
+    font-weight: 600;
+    background-size: cover;
+    background-image: url(../images/redd-f-c7xBEFBJhkg-unsplash.jpg);
+    height: 100vh;
+}
+
+.texte{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 128px;
+}
