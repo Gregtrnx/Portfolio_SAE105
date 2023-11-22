@@ -175,7 +175,7 @@ main {
 }
 
 .border_deco {
-    width: 20rem;
+    width: 22.7rem;
     height: 1px;
     background: #dddddd;
     border-top: #cfcfcf solid 1px;
@@ -190,6 +190,26 @@ h3 {
     opacity: 0.8;
 }
 
-.last_content{
-    
+.last_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+.preview_sae {
+    background-color: white;
+    color: #757575;
+    padding: 14px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+    width: 314px;
+    height: 184px;
+}
+
+.img_preview>* {
+    height: 184px;
+    width: 314px;
+    margin-bottom: 14px;
+    border-radius: 4px;
 }
