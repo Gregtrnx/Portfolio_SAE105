@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: #f0F0F0FF;
     background-color: #111;
 }
 
@@ -18,7 +18,7 @@ header {
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
     opacity: 0;
-    animation: head 1s ease-in-out 0.6s 1 forwards
+    animation: head 0.5s ease-in-out 0.2s 1 forwards
 }
 
 @keyframes head {
@@ -61,7 +61,7 @@ header {
     cursor: pointer;
 }
 
-.onglet>*{
+.onglet>* {
     color: #FFF;
 }
 
@@ -77,11 +77,11 @@ header {
     margin-right: 128px;
 }
 
-.icon>*{
+.icon>* {
     cursor: pointer;
 }
 
-.icon>*:hover{
+.icon>*:hover {
     transition: opacity 0.5s;
     opacity: 0.5;
 }
@@ -98,6 +98,7 @@ main {
     background-size: cover;
     background-image: url(../images/redd-f-c7xBEFBJhkg-unsplash.jpg);
     height: 100vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
 .texte {
@@ -123,8 +124,11 @@ main {
 }
 
 .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: none;
-    width: 6vw;
+    width: 25vw;
     height: 1vw;
     border: 4px solid #ffffff;
     border-radius: 14px;
@@ -132,7 +136,8 @@ main {
     color: #ffffff;
     position: relative;
     cursor: pointer;
-    padding: 14px;
+    padding: 24px;
+    margin: 54px;
 }
 
 .btn:hover {
@@ -153,5 +158,38 @@ main {
 
 .btn:hover::before {
     border-radius: 4px;
-    width: 11.8vw;
+    width: 27.5vw;
+}
+
+.marg {
+    margin-left: 54px;
+}
+
+.last_info {
+    background-color: #f0f0f0;
+}
+
+.last_head {
+    display: flex;
+    justify-content: center;
+}
+
+.border_deco {
+    width: 20rem;
+    height: 1px;
+    background: #dddddd;
+    border-top: #cfcfcf solid 1px;
+    margin-top: 2.2rem;
+    position: relative;
+}
+
+h3 {
+    margin: 24px;
+    color: #757575;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.last_content{
+    
 }
