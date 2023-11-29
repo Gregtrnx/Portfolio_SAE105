@@ -79,109 +79,49 @@ header {
 /**Page d'acceuil**/
 /*********************/
 
-main {
+main{
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texte{
     display: flex;
-    color: white;
-    font-size: 6vw;
-    font-weight: 600;
-    background-size: cover;
-    background-image: url(../images/redd-f-c7xBEFBJhkg-unsplash.jpg);
-    height: 100vh;
-}
-
-.texte {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 164px;
-    opacity: 0;
-    animation: showcontent 2s ease-in-out 0.6s 1 forwards
-}
-
-@keyframes showcontent {
-    from {
-        opacity: 0;
-        transform: translate(0, 100px);
-        filter: blur(33px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate(0, 0);
-        filter: blur(0);
-    }
-}
-
-
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    width: 25vw;
-    height: 1vw;
-    border: 4px solid #ffffff;
-    border-radius: 4px;
-    font-size: xx-large;
-    color: #ffffff;
-    position: relative;
-    cursor: pointer;
-    padding: 24px;
-    margin: 54px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-}
-
-.btn:hover {
-    color: #111;
-}
-
-.btn::before {
-    content: "";
-    position: absolute;
-    width: 0vw;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background-color: #ffffff;
-    z-index: -1;
-    transition: .4s linear;
-    opacity: 0.8;
-}
-
-.btn:hover::before {
+    flex-direction: column;
+    gap: 12px;
     
-    width: 100%;
-    opacity: 0.8;
 }
 
-.marg {
-    margin-left: 54px;
+h1{
+    color: #333333;
+    font-size: 6rem;
+    margin: 0;
 }
+
+h2{
+    margin: 0;
+    color: #757575;
+    font-weight: 100;
+    font-size: 26px;
+}
+
+h3{
+    margin: 0;
+    color: #333333;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+
+/*********************/
+/**Footer**/
+/*********************/
+
 
 .last_info {
     position: relative;
     background-color: #fafafa;
     padding: 7.6rem 0;
-}
-
-.last_head {
-    display: flex;
-    justify-content: center;
-}
-
-.border_deco {
-    width: 34.8rem;
-    height: 1px;
-    background: #dddddd;
-    border-top: #cfcfcf solid 1px;
-    margin-top: 2.2rem;
-    position: relative;
-}
-
-h3 {
-    margin: 24px;
-    color: #757575;
-    font-weight: 400;
-    opacity: 0.8;
 }
 
 .last_content {
