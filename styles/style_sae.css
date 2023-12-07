@@ -79,32 +79,32 @@ header {
 /**Page d'acceuil**/
 /*********************/
 
-main{
+main {
     background-color: #FFF;
     font-family: 'Montserrat', sans-serif;
 }
 
-.texte{
+.texte {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    
+
 }
 
-h1{
+h1 {
     color: #333333;
     font-size: 6rem;
     margin: 0;
 }
 
-h2{
+h2 {
     margin: 0;
     color: #757575;
     font-weight: 100;
     font-size: 26px;
 }
 
-h3{
+h3 {
     margin: 0;
     color: #333333;
     font-size: 18px;
@@ -118,7 +118,7 @@ h3{
 /*********************/
 
 
-.last_info {
+.sae {
     position: relative;
     background-color: #fafafa;
     padding: 7.6rem 0;
