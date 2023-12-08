@@ -1,10 +1,9 @@
-let bulle = ''
+// Sélectionner tous les éléments ayant la classe "preview_sae"
+let previewSAEElements = document.querySelectorAll('.preview_sae');
 
-for (let i in SAE) {
-    bulle += '<div class="Bulle"> <a class="titre" href="SAE.html?number=' + i + '">' + i + '<div class="titre_b">' + SAE[i]["titre"] + '</div></a></div>';
-}
-
-document.querySelector(".ligne").innerHTML = bulle;
-
-let urlParam = new URLSearchParams(location.search);
-let saeNumber = urlParam.get('number');
+// Pour chaque élément .preview_sae, ajouter les titres correspondants
+previewSAEElements.forEach(function(element, i) {
+    let cle = Object.keys(SAE)[i];
+    let titreHTML = '<div class="titre_sae">' + cle + ' - ' + SAE[cle]["titre"] + '</div>';
+    element.innerHTML += titreHTML;
+});
