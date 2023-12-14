@@ -79,20 +79,61 @@ header {
 /**Page d'acceuil**/
 /*********************/
 
-main {
+.presa {
     background-color: #FFF;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 10%;
+    box-shadow: inset 1px 2px 6px 1px rgba(0, 0, 0, 0.26); 
 }
 
 .texte {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     gap: 12px;
+}
+
+.image{
+    gap: 15px;
+}
+
+.picture1{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 300px;
+    padding: 30px 50px 30px 20px;
+    -webkit-box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.26);
+    border-radius: 4px;
+}
+
+.picture2{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 150px;
+    left: 1300px;
+    background-color: #FFF;
+    padding: 30px 30px 230px 30px;
+    -webkit-box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.26);
+    border-radius: 4px;
+}
+
+.texte_img{
+    color: #111;
+    position: absolute;
+    top: 390px;
+    left: 1330px;
+    width: 300px;
 }
 
 h1 {
     color: #333333;
     font-size: 6rem;
+    font-weight: bolder;
     margin: 0;
 }
 
@@ -100,15 +141,23 @@ h2 {
     margin: 0;
     color: #757575;
     font-weight: 100;
-    font-size: 26px;
+    font-size: 20px;
+    width: 55%;
+}
+
+#gras{
+    font-weight: bold;
 }
 
 h3 {
     margin: 0;
     color: #333333;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: lighter;
+    width: 55%;
 }
+
+
 
 .sae {
     position: relative;
@@ -150,7 +199,7 @@ h3 {
     border-radius: 4px;
 }
 
-.titre_sae{
+.titre_sae {
     font-family: 'Roboto', sans-serif;
     color: #111;
 }
