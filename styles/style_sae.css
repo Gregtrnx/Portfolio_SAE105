@@ -159,10 +159,16 @@ h3 {
 
 
 
-.sae {
+.sae1 {
     position: relative;
     background-color: #fafafa;
-    padding: 7.6rem 0;
+    padding: 12% 10% 5% 10%;
+}
+
+.sae2 {
+    position: relative;
+    background-color: #fafafa;
+    padding: 2% 10% 10% 10%;
 }
 
 .last_content {
