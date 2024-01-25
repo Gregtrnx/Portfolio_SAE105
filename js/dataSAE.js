@@ -18,7 +18,8 @@ const SAE = {
       "R1.14": "Représentation et traitement de l’information",
       "R1.16": "Économie, gestion et droit du numérique"
     },
-    "semestre": 1
+    "semestre": 1,
+    "pdfUrl": "/pdf/sae1_01.pdf"
   },
 
   "SAE1.02": {
@@ -35,7 +36,8 @@ const SAE = {
       "R1.05": "Stratégies de communication et marketing",
       "R1.06": "Expression, communication et rhétorique"
     },
-    "semestre": 1
+    "semestre": 1,
+    "pdfUrl": "/pdf/sae1_02.pdf"
   },
 
   "SAE1.03": {
@@ -52,7 +54,8 @@ const SAE = {
       "R1.09": "Culture artistique",
       "R1.14": "Représentation et traitement de l’information"
     },
-    "semestre": 1
+    "semestre": 1,
+    "pdfUrl": "/pdf/sae1_03.pdf"
   },
 
   "SAE1.04": {
@@ -70,7 +73,8 @@ const SAE = {
       "R1.10": "Production audio et vidéo",
       "R1.14": "Représentation et traitement de l’information"
     },
-    "semestre": 1
+    "semestre": 1,
+    "pdfUrl": "/pdf/sae1_04.pdf"
   },
 
   "SAE1.05": {
@@ -88,7 +92,8 @@ const SAE = {
       "R1.12": "Développement Web",
       "R1.13": "Hébergement"
     },
-    "semestre": 1
+    "semestre": 1,
+    "pdfUrl": "/pdf/sae1_05.pdf"
   },
 
   "SAE1.06": {
@@ -110,7 +115,8 @@ const SAE = {
       "R1.16": "Économie, gestion et droit du numérique",
       "R1.17": "Projet Personnel et Professionnel"
     },
-    "semestre": 1
+    "semestre": 1,
+    "pdfUrl": "/pdf/sae1_06.pdf"
   },
 
   "SAE2.01": {
@@ -127,7 +133,8 @@ const SAE = {
       "R2.04": "Culture numérique",
       "R2.16": "Représentation et traitement de l’information"
     },
-    "semestre": 2
+    "semestre": 2,
+    "pdfUrl": "/pdf/sae2_01.pdf"
   },
 
   "SAE2.02": {
@@ -168,7 +175,8 @@ const SAE = {
       "R2.18": "Économie, gestion et droit du numérique",
       "R2.19": "Projet Personnel et Professionnel"
     },
-    "semestre": 2
+    "semestre": 2,
+    "pdfUrl": "/pdf/sae2_02.pdf"
   },
 
   "SAE2.03": {
@@ -188,7 +196,8 @@ const SAE = {
       "R2.14": "Système d’information",
       "R2.15": "Hébergement"
     },
-    "semestre": 2
+    "semestre": 2,
+    "pdfUrl": "/pdf/sae2_03.pdf"
   },
 
   "SAE2.04": {
@@ -203,6 +212,7 @@ const SAE = {
       "R2.06": "Expression, communication et rhétorique",
       "R2.19": "Projet Personnel et Professionnel"
     },
-    "semestre": 2
+    "semestre": 2,
+    "pdfUrl": "/pdf/sae2_04.pdf"
   }
 }

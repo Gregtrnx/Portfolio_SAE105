@@ -78,7 +78,59 @@ header {
 /**Page d'acceuil**/
 /*********************/
 
+.presa {
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10%;
+    gap: 40px;
+}
 
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    color: #757575;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 0;
+    color: #333333;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+p{
+    margin: 0;
+    color: #333333;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.pdf{
+    color: #FAFAFA;
+    background-color: #757575;
+    padding: 14px;
+    width: 8.5%;
+    border-radius: 4px;
+}
 
 /*********************/
 /**Footer**/
@@ -142,4 +194,8 @@ header {
     margin-left: -59px;
     bottom: -40px;
     text-indent: -9999px;
+}
+
+.white{
+    background-color: #FFF;
 }
