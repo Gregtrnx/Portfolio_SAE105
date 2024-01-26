@@ -79,7 +79,7 @@ header {
 /*********************/
 
 .presa {
-    background-color: #FFF; /* Couleur de fond de la section 'presa' */
+    background-color: #FAFAFA; /* Couleur de fond de la section 'presa' */
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -197,5 +197,5 @@ p {
 }
 
 .white {
-    background-color: #FFF; /* Couleur de fond blanc */
+    background-color: #FAFAFA; /* Couleur de fond blanc */
 }
