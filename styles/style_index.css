@@ -1,14 +1,15 @@
+/* Réinitialisation des marges, des paddings et utilisation de la police 'Roboto' */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #f0F0F0FF;
-    background-color: #fafafa;
+    color: #f0F0F0FF; /* Couleur du texte */
+    background-color: #fafafa; /* Couleur de fond de la page */
 }
 
+/* Réglage du défilement fluide pour tous les éléments */
 * {
     scroll-behavior: smooth;
-
 }
 
 /****************/
@@ -16,7 +17,7 @@ body {
 /****************/
 
 header {
-    background-color: #111;
+    background-color: #111; /* Couleur de fond de l'en-tête */
     padding: 14px 5%;
     width: 90%;
     display: flex;
@@ -37,12 +38,10 @@ header {
     cursor: pointer;
 }
 
-
 .logo_b:hover {
     transition: opacity 0.5s;
     opacity: 0.5;
 }
-
 
 .onglet {
     display: flex;
@@ -76,7 +75,7 @@ header {
 }
 
 /*********************/
-/**Page d'acceuil**/
+/** Page d'accueil **/
 /*********************/
 
 main {
@@ -85,7 +84,7 @@ main {
     font-size: 6vw;
     font-weight: 600;
     background-size: cover;
-    background-image: url(../images/redd-f-c7xBEFBJhkg-unsplash.jpg);
+    background-image: url(../images/redd-f-c7xBEFBJhkg-unsplash.jpg); /* Image de fond */
     height: 100vh;
 }
 
@@ -94,9 +93,10 @@ main {
     margin-bottom: auto;
     margin-left: 164px;
     opacity: 0;
-    animation: showcontent 2s ease-in-out 0.6s 1 forwards
+    animation: showcontent 2s ease-in-out 0.6s 1 forwards;
 }
 
+/* Animation d'apparition du contenu */
 @keyframes showcontent {
     from {
         opacity: 0;
@@ -110,7 +110,6 @@ main {
         filter: blur(0);
     }
 }
-
 
 .btn {
     display: flex;
@@ -148,7 +147,6 @@ main {
 }
 
 .btn:hover::before {
-
     width: 100%;
     opacity: 0.8;
 }
@@ -220,7 +218,7 @@ h3 {
 }
 
 /*********************/
-/**Footer**/
+/** Footer **/
 /*********************/
 
 .bas_page {

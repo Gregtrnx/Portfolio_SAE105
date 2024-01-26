@@ -1,11 +1,15 @@
+/* Réinitialisation des marges, des paddings et utilisation de la police 'Roboto' */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: #f0F0F0FF;
+    /* Couleur du texte */
     background-color: #fafafa;
+    /* Couleur de fond de la page */
 }
 
+/* Réglage du défilement fluide pour tous les éléments */
 * {
     scroll-behavior: smooth;
 }
@@ -16,6 +20,7 @@ body {
 
 header {
     background-color: #111;
+    /* Couleur de fond de l'en-tête */
     padding: 14px 5%;
     width: 90%;
     display: flex;
@@ -36,12 +41,10 @@ header {
     cursor: pointer;
 }
 
-
 .logo_b:hover {
     transition: opacity 0.5s;
     opacity: 0.5;
 }
-
 
 .onglet {
     display: flex;
@@ -75,11 +78,12 @@ header {
 }
 
 /*********************/
-/**Page d'acceuil**/
+/** Page d'accueil **/
 /*********************/
 
 .presa {
     background-color: #FFF;
+    /* Couleur de fond de la section 'presa' */
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
@@ -144,16 +148,17 @@ h3 {
     font-size: x-large;
 }
 
+/* Import de la police Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-.formbold-main-wrapper {
+.form-main {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 96px 48px 48px 48px;
 }
 
-.formbold-form-wrapper {
+.form-wrap {
     margin: 0 auto;
     max-width: 550px;
     width: 100%;
@@ -272,7 +277,7 @@ h3 {
 }
 
 /*********************/
-/**Footer**/
+/** Footer **/
 /*********************/
 
 .bas_page {

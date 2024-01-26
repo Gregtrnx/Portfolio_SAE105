@@ -1,11 +1,13 @@
+/* Réinitialisation des marges, des paddings et utilisation de la police 'Roboto' */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #f0F0F0FF;
-    background-color: #fafafa;
+    color: #f0F0F0FF; /* Couleur du texte */
+    background-color: #fafafa; /* Couleur de fond de la page */
 }
 
+/* Réglage du défilement fluide pour tous les éléments */
 * {
     scroll-behavior: smooth;
 }
@@ -15,7 +17,7 @@ body {
 /****************/
 
 header {
-    background-color: #111;
+    background-color: #111; /* Couleur de fond de l'en-tête */
     padding: 14px 5%;
     width: 90%;
     display: flex;
@@ -35,12 +37,10 @@ header {
     cursor: pointer;
 }
 
-
 .logo_b:hover {
     transition: opacity 0.5s;
     opacity: 0.5;
 }
-
 
 .onglet {
     display: flex;
@@ -74,17 +74,17 @@ header {
 }
 
 /*********************/
-/**Page d'acceuil**/
+/** Page d'accueil **/
 /*********************/
 
 .presa {
-    background-color: #FFF;
+    background-color: #FFF; /* Couleur de fond de la section 'presa' */
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
-    padding: 10% 15% 10% 10%;
+    padding: 10% 15% 10% 10%; /* Ajout de padding */
     gap: 40px;
-    box-shadow: inset 1px 2px 1px rgba(0, 0, 0, .26);
+    box-shadow: inset 1px 2px 1px rgba(0, 0, 0, .26); /* Ombre interne */
 }
 
 .texte {
@@ -95,7 +95,7 @@ header {
 }
 
 .image {
-    width: 120%;
+    width: 120%; /* Ajustement de la largeur de l'image */
     border-radius: 4px;
     box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.26);
 }
@@ -145,7 +145,7 @@ h3 {
 
 
 /*********************/
-/**Footer**/
+/** Footer **/
 /*********************/
 
 .test{
